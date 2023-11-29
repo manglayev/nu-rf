@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nazarbayev University RF Research Team',
-  tagline: 'Muhammad Hashmi and Kassen Dautov',
+  tagline: 'Mohammad Hashmi and Kassen Dautov',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
