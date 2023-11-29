@@ -62,22 +62,22 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [
+        items: [          
+          {            
+            to: '/team',            
+            label: 'Team',
+            position: 'left',
+          },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Team',
+            label: 'Publications',
           },
           {
-            to: '/blog',
-            label: 'Publications',
-            position: 'left'
-          },
-          {            
-            to: '/research-projects',            
+            to: '/research-projects',
             label: 'Research Projects',
-            position: 'left',
+            position: 'left'
           },
           {
             to: '/blog',
@@ -85,7 +85,7 @@ const config = {
             position: 'left'
           },
           {
-            to: '/blog',
+            to: '/project-demos',
             label: 'Project Demos',
             position: 'left'
           },
