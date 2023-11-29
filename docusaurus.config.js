@@ -67,9 +67,29 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Team',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Publications',
+            position: 'left'
+          },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Research Project',
+          },
+          {
+            to: '/blog',
+            label: 'News',
+            position: 'left'
+          },
+          {
+            to: '/blog',
+            label: 'Project Demos',
+            position: 'left'
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
