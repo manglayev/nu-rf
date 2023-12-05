@@ -30,8 +30,7 @@ function Team()
                         <h2>John Doe</h2>
                         <p className="title">Designer</p>
                         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p>example@example.com</p>
-                        <p><button className="buttonTeam">Contact</button></p>
+                        <p>example@example.com</p>                        
                     </div>
                     </div>
                 </div>
@@ -52,8 +51,7 @@ function Team()
                             He is currently a Postdoctoral Research Fellow with the School of Engineering and Digital
                             Sciences, Nazarbayev University. His research interests include broad areas of antenna and
                             high-frequency circuit design, with a particular focus on wireless power transfer systems,
-                            energy harvesting, metamaterials, and the antennas utilized in wireless body area networks.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
+                            energy harvesting, metamaterials, and the antennas utilized in wireless body area networks.</p>                        
                     </div>
                     </div>
                 </div>
@@ -74,8 +72,7 @@ function Team()
                             India, and the Research Institute of Sciences and Engineering (RISE), University of
                             Sharjah, United Arab Emirates. His research interests include machine learning-
                             based modeling and optimization, measurement, characterization, and modeling of
-                            RF/Microwave devices, and power amplifier design.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
+                            RF/Microwave devices, and power amplifier design.</p>                        
                     </div>
                     </div>
                 </div>
@@ -92,7 +89,6 @@ function Team()
                             particularly specializing in wearable antennas for wireless body area networks. He is deeply intrigued by
                             the potential of mm-wave band MIMO antennas and metamaterial-based antennas for transformative
                             applications in the medical field.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
                     </div>
                     </div>
                 </div>
@@ -112,7 +108,6 @@ function Team()
                             radar systems, and MMwave imaging applications. He received the Bolashak
                             International Scholarship, awarded to high-performing students from
                             Kazakhstan to study overseas, in 2019.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
                     </div>
                     </div>
                 </div>
@@ -133,7 +128,6 @@ function Team()
                             novel machine learning techniques for analyzing the behavior of Gallium Nitride High Electron
                             Mobility Transistors. So far, he has authored three papers presented at highly esteemed IEEE
                             conferences, earning two Best Paper Awards for his outstanding contributions.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
                     </div>
                     </div>
                 </div>
@@ -151,7 +145,6 @@ function Team()
                             area focuses on wireless power transfer systems, particularly developed on defected ground structure
                             approach. Furthermore, her research interest also includes artificially engineered metamaterial slabs
                             used for performance optimization strategies.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
                     </div>
                     </div>
                 </div>
@@ -164,7 +157,6 @@ function Team()
                         <p>is a second-year MSc Student of Science in Electrical And Computer
                             Engineering at Nazarbayev University. His research interests include Small-Signal modeling of
                             Gallium Nitride High Electron Mobility Transistors using Machine Learnig algorithms.</p>
-                        <p><button className="buttonTeam">Contact</button></p>
                     </div>
                     </div>
                 </div>                
@@ -182,7 +174,6 @@ function Team()
                         are centered around the application of electrical engineering principles in biomedicine,
                         with a focus on wireless power and data transfer using RF circuits for brain implants and
                         biosensors.</p>
-                    <p><button className="buttonTeam">Contact</button></p>
                 </div>
                 </div>
             </div>
@@ -195,7 +186,6 @@ function Team()
                     <p>RAIYMBEK NURGALI is a 3rd-year Undergraduate student in
                         Electrical and Computer Engineering at Nazarbayev University. His research interests
                         are Antenna and RF Techniques, Communication Systems.</p>
-                    <p><button className="buttonTeam">Contact</button></p>
                 </div>
                 </div>
             </div>            

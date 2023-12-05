@@ -70,10 +70,10 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            docId: '2023',
             label: 'Publications',
-          },
+            position: 'left'
+          },          
           {
             to: '/research-projects',
             label: 'Research Projects',
@@ -88,7 +88,7 @@ const config = {
             to: '/project-demos',
             label: 'Project Demos',
             position: 'left'
-          },
+          },          
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
