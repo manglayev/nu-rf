@@ -14,6 +14,10 @@ import Khan_Kashif from '../../static/team/Khan_Kashif.jpg'
 import Kudaibergenova_Zhanel from '../../static/team/Zhanel_Kudaibergenova.jpg'
 import Murat_Anel from '../../static/team/Murat_Anel.jpg'
 import Nurgali_Raiymbek from '../../static/team/Nurgali_Raiymbek.jpg'
+import Bakytbekov_Azamat from '../../static/team/Bakytbekov_Azamat.jpg'
+import Jawad_Ahmad from '../../static/team/Jawad_Ahmad.jpg'
+import Rauan_Ibragim from '../../static/team/Rauan_Ibragim.jpg'
+import Yerassyl_Sabyrov from '../../static/team/Yerassyl_Sabyrov.jpg'
 
 
 function Team()
@@ -37,11 +41,11 @@ function Team()
             </div>
             <div className="topnav"><h1>PostDoctoral Fellows</h1></div>
             <div className="row">
-                <div className="column" style={{display: "block", marginLeft: "auto", marginRight: "auto",}}>
+                <div className="column">
                     <div className="card">
                     <img src={KD} alt="Kasen" className="photo" />
                     <div className="container">
-                        <h2>KASSEN DAUTOV</h2>
+                        <h2>Dr. KASSEN DAUTOV</h2>
                         <p className="title">CEO &amp; Founder</p>
                         <p>received the B.Sc. degree (Hons.) in radio engineering, electronics, and
                             telecommunications from Kazakh National Research Technical University (named after K. I.
@@ -52,6 +56,21 @@ function Team()
                             Sciences, Nazarbayev University. His research interests include broad areas of antenna and
                             high-frequency circuit design, with a particular focus on wireless power transfer systems,
                             energy harvesting, metamaterials, and the antennas utilized in wireless body area networks.</p>                        
+                    </div>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className="card">
+                    <img src={Bakytbekov_Azamat} alt="Azamat" className="photo" />
+                    <div className="container">
+                        <h2>Dr. AZAMAT BAKYTBEKOV</h2>
+                        <p className="title">CEO &amp; Founder</p>
+                        <p>received his bachelor's degree from the Electrical Engineering
+                            and Electronics Department at Nazarbayev University in 2015, and his master's and Ph.D. degree
+                            from the Electrical Engineering Department at King Abdullah University of Science and
+                            Technology (KAUST) in 2017 and 2022 respectively. He is currently a postdoctoral scholar at
+                            Nazarbayev University under the supervision of Dr. Mohammad Hashmi. His research interests
+                            include RF and thermal energy harvesting for green IoT applications.</p>
                     </div>
                     </div>
                 </div>
@@ -78,7 +97,7 @@ function Team()
                 </div>
                 <div className="column">
                     <div className="card">
-                    <img src={img1} alt="Jawad" className="photo" />
+                    <img src={Jawad_Ahmad} alt="Jawad" className="photo" />
                     <div className="container">
                         <h2>JAWAD AHMAD</h2>
                         <p className="title">Art Director</p>
@@ -188,7 +207,31 @@ function Team()
                         are Antenna and RF Techniques, Communication Systems.</p>
                 </div>
                 </div>
-            </div>            
+            </div>
+            <div className="column">
+                <div className="card">
+                <img src={Rauan_Ibragim} alt="Raiymbek" className="photo" />
+                <div className="container">
+                    <h2>RAUAN IBRAGIM</h2>
+                    <p className="title">Art Director</p>
+                    <p>is a third-year Electrical and Computer Engineering student at Nazarbayev
+                    University, expecting to graduate in 2025. His research interests include ML and AI for
+                    modeling and optimization of electronic circuits.</p>
+                </div>
+                </div>
+            </div>
+            <div className="column" style={{display: "block", marginLeft: "auto", marginRight: "auto",}}>
+                <div className="card">
+                <img src={Yerassyl_Sabyrov} alt="Raiymbek" className="photo" />
+                <div className="container">
+                    <h2>YERASSYL SABYROV</h2>
+                    <p className="title">Art Director</p>
+                    <p>YERASSYL SABYROV is a third-year Electrical and Computer Engineering student at
+                    Nazarbayev University, expecting to graduate in 2025. His research interests are Energy
+                    Harvesting and Wireless Power Transfer systems.</p>
+                </div>
+                </div>
+            </div>
         </div>
         <div className="topnav"><h1>Former team members</h1></div>
             <div className="row">
