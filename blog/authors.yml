@@ -1,17 +1,5 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+kassen:
+  name: Kassen Dautov
+  title: Postdoctoral Researcher
+  url: https://docusaurus-2-manglayev.vercel.app/team
+  image_url: https://docusaurus-2-manglayev.vercel.app/assets/images/KD-47466334c6eb09d7702c80bb90eb8902.jpg
