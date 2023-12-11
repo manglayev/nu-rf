@@ -1,6 +1,6 @@
 ---
 slug: best-paper-award-2
-title: Symposium Best Paper Awards
+title: Symposium Best Paper Award
 authors: [kassen]
 tags: [publication, symposium, best-paper]
 ---

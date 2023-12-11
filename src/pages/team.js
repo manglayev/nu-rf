@@ -18,6 +18,7 @@ import Bakytbekov_Azamat from '../../static/team/Bakytbekov_Azamat.jpg'
 import Jawad_Ahmad from '../../static/team/Jawad_Ahmad.jpg'
 import Rauan_Ibragim from '../../static/team/Rauan_Ibragim.jpg'
 import Yerassyl_Sabyrov from '../../static/team/Yerassyl_Sabyrov.jpg'
+import Mohammad_Hashmi from '../../static/team/Hashmi_Mohammad.jpg'
 
 
 function Team()
@@ -29,12 +30,21 @@ function Team()
             <div className="row">
                 <div className="column" style={{display: "block", marginLeft: "auto", marginRight: "auto",}}>
                     <div className="card">
-                    <img src={img3} alt="John" className="photo" />
+                    <img src={Mohammad_Hashmi} alt="John" className="photo" />
                     <div className="container">
-                        <h2>John Doe</h2>
-                        <p className="title">Designer</p>
-                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p>example@example.com</p>                        
+                        <h2>Mohammad Hashmi</h2>
+                        <p>(Senior Member, IEEE) received the B.Tech. degree from Aligarh Muslim University, 
+                            India, the M.S. degree from the Darmstadt University of Technology, Germany, and the 
+                            Ph.D. degree from Cardiff University, Cardiff, U.K. He had held research, engineering, 
+                            and academic positions with the University of Calgary, Canada; Cardiff University; 
+                            Thales Electronics GmbH, Germany; Philips Technology Center, Germany; and IIIT Delhi, India. 
+                            He is currently an Associate Professor with Nazarbayev University, Kazakhstan. 
+                            His research activities have led to one book, three U.S. patents (two pending), and over 
+                            250 journals and conference publications. His current research interests include the domain 
+                            of advanced RF circuits for wireless applications (including wireless power transfer and 
+                            energy harvesting), emerging RF circuits and applications, broadband linear and efficient 
+                            power amplifiers for mobile and satellite applications, and high- and low-frequency 
+                            instrumentation. He is an Associate Editor of IEEE Microwave Magazine.</p>
                     </div>
                     </div>
                 </div>
@@ -46,7 +56,6 @@ function Team()
                     <img src={KD} alt="Kasen" className="photo" />
                     <div className="container">
                         <h2>Dr. KASSEN DAUTOV</h2>
-                        <p className="title">CEO &amp; Founder</p>
                         <p>received the B.Sc. degree (Hons.) in radio engineering, electronics, and
                             telecommunications from Kazakh National Research Technical University (named after K. I.
                             Satpayev), Almaty, Kazakhstan, in 2009, the M.Sc. degree in electronics engineering from the
@@ -64,7 +73,6 @@ function Team()
                     <img src={Bakytbekov_Azamat} alt="Azamat" className="photo" />
                     <div className="container">
                         <h2>Dr. AZAMAT BAKYTBEKOV</h2>
-                        <p className="title">CEO &amp; Founder</p>
                         <p>received his bachelor's degree from the Electrical Engineering
                             and Electronics Department at Nazarbayev University in 2015, and his master's and Ph.D. degree
                             from the Electrical Engineering Department at King Abdullah University of Science and
@@ -82,7 +90,6 @@ function Team()
                     <img src={Husain_Saddam} alt="Saddam" className="photo" />
                     <div className="container">
                         <h2>SADDAM HUSAIN</h2>
-                        <p className="title">CEO &amp; Founder</p>
                         <p>received the B.Tech. degree from the Galgotias College of
                             Engineering and Technology, Noida, India, in 2016, and the M.Tech. degree from
                             Jamia Millia Islamia, New Delhi, India, in 2019. He is currently pursuing the Ph.D.
@@ -100,7 +107,6 @@ function Team()
                     <img src={Jawad_Ahmad} alt="Jawad" className="photo" />
                     <div className="container">
                         <h2>JAWAD AHMAD</h2>
-                        <p className="title">Art Director</p>
                         <p>is currently pursuing PhD in the Department of Electrical Engineering at the Nazarbayev
                             university’s school of engineering and digital sciences. His academic journey began with a Bachelor of
                             Science in 2017, followed by a Master of Science in 2020, both from the International Islamic University,
@@ -116,8 +122,7 @@ function Team()
                     <img src={Karimov_Adil} alt="Adil" className="photo" />
                     <div className="container">
                         <h2>ADIL KARIMOV</h2>
-                        <p className="title">Designer</p>
-                        <p>ADIL KARIMOV is currently pursuing a Ph.D. degree in electrical engineering
+                        <p>is currently pursuing a Ph.D. degree in electrical engineering
                             at Nazarbayev University. In 2022, he graduated with an MSc degree in
                             electromagnetics and microwave engineering at the University of Alberta,
                             Edmonton, AB, Canada. Since 2020, he has been designing a high-power
@@ -138,8 +143,7 @@ function Team()
                     <img src={Khan_Kashif} alt="Kashif" className="photo" />
                     <div className="container">
                         <h2>KASHIF KHAN</h2>
-                        <p className="title">Designer</p>
-                        <p>KASHIF KHAN obtained his Bachelor degree in Electrical Engineering from the University of
+                        <p>obtained his Bachelor degree in Electrical Engineering from the University of
                             Engineering and Technology (UET) in Peshawar, Pakistan, in 2019. Driven by his passion for
                             advanced education, he pursued his master&#39;s in Electrical and Computer Engineering at
                             Nazarbayev University (NU) in Astana, Kazakhstan. Upon successful completion of his MSc in
@@ -158,8 +162,7 @@ function Team()
                     <img src={Kudaibergenova_Zhanel} alt="Zhanel" className="photo" />
                     <div className="container">
                         <h2>ZHANEL KUDAIBERGENOVA</h2>
-                        <p className="title">CEO &amp; Founder</p>
-                        <p>ZHANEL KUDAIBERGENOVA received the B.Sc. degree in 2022 and is currently pursuing the M.Sc. in
+                        <p>received the B.Sc. degree in 2022 and is currently pursuing the M.Sc. in
                             Electrical and Computer Engineering at Nazarbayev University, Astana, Kazakhstan. Her main research
                             area focuses on wireless power transfer systems, particularly developed on defected ground structure
                             approach. Furthermore, her research interest also includes artificially engineered metamaterial slabs
@@ -172,7 +175,6 @@ function Team()
                     <img src={Kadirbay_Baglan} alt="Bagylan" className="photo" />
                     <div className="container">
                         <h2>BAGYLAN KADIRBAY</h2>
-                        <p className="title">Art Director</p>
                         <p>is a second-year MSc Student of Science in Electrical And Computer
                             Engineering at Nazarbayev University. His research interests include Small-Signal modeling of
                             Gallium Nitride High Electron Mobility Transistors using Machine Learnig algorithms.</p>
@@ -187,7 +189,6 @@ function Team()
                     <img src={Murat_Anel} alt="Anel" className="photo" />
                     <div className="container">
                     <h2>ANEL MURAT</h2>
-                    <p className="title">CEO &amp; Founder</p>
                     <p>is a third-year Electrical and Computer Engineering student at
                         Nazarbayev University, expecting to graduate in 2025. Her current research interests
                         are centered around the application of electrical engineering principles in biomedicine,
@@ -201,8 +202,7 @@ function Team()
                 <img src={Nurgali_Raiymbek} alt="Raiymbek" className="photo" />
                 <div className="container">
                     <h2>RAIYMBEK NURGALI</h2>
-                    <p className="title">Art Director</p>
-                    <p>RAIYMBEK NURGALI is a 3rd-year Undergraduate student in
+                    <p>is a 3rd-year Undergraduate student in
                         Electrical and Computer Engineering at Nazarbayev University. His research interests
                         are Antenna and RF Techniques, Communication Systems.</p>
                 </div>
@@ -213,7 +213,6 @@ function Team()
                 <img src={Rauan_Ibragim} alt="Raiymbek" className="photo" />
                 <div className="container">
                     <h2>RAUAN IBRAGIM</h2>
-                    <p className="title">Art Director</p>
                     <p>is a third-year Electrical and Computer Engineering student at Nazarbayev
                     University, expecting to graduate in 2025. His research interests include ML and AI for
                     modeling and optimization of electronic circuits.</p>
@@ -225,8 +224,7 @@ function Team()
                 <img src={Yerassyl_Sabyrov} alt="Raiymbek" className="photo" />
                 <div className="container">
                     <h2>YERASSYL SABYROV</h2>
-                    <p className="title">Art Director</p>
-                    <p>YERASSYL SABYROV is a third-year Electrical and Computer Engineering student at
+                    <p>is a third-year Electrical and Computer Engineering student at
                     Nazarbayev University, expecting to graduate in 2025. His research interests are Energy
                     Harvesting and Wireless Power Transfer systems.</p>
                 </div>
@@ -234,42 +232,15 @@ function Team()
             </div>
         </div>
         <div className="topnav"><h1>Former team members</h1></div>
-            <div className="row">
-                <div className="column">
-                    <div className="card">
-                    <img src={img1} alt="Jane" className="photo" />
-                    <div className="container">
-                    <h2>Jane Doe</h2>
-                    <p className="title">CEO &amp; Founder</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                    <p><button className="buttonTeam">Contact</button></p>
-                </div>
-                </div>
-            </div>
-            <div className="column">
-                <div className="card">
-                <img src={img2} alt="Mike" className="photo" />
+        <div className="row">
+            <div className="column" style={{display: "block", marginLeft: "auto", marginRight: "auto",}}>
+                <div className="card">                
                 <div className="container">
-                    <h2>Mike Ross</h2>
-                    <p className="title">Art Director</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                    <p><button className="buttonTeam">Contact</button></p>
+                    <h2>Zere Iman</h2>
+                    <h2>Abzal Aidakhmetov</h2>
+                    <h2>Duren Yedres</h2>
                 </div>
-                </div>
-            </div>
-            <div className="column">
-                <div className="card">
-                <img src={img3} alt="John" className="photo" />
-                <div className="container">
-                    <h2>John Doe</h2>
-                    <p className="title">Designer</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                    <p><button className="buttonTeam">Contact</button></p>
-                </div>
-                </div>
+                </div>                
             </div>
         </div>    
     </Layout>
