@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NU RF team', // Usually your GitHub org/user name.
+  projectName: 'NU RF team website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -99,47 +99,32 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
+          {            
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Nazarbayev University',
+                href: 'https://nu.edu.kz',
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
+          {            
+            items: [              
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'School of Engineering and Digital Sciences',
+                href: 'https://seds.nu.edu.kz',
               },
             ],
           },
-          {
-            title: 'More',
+          {            
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Research',
+                href: 'https://research.nu.edu.kz/en/organisations/school-of-engineering-and-digital-sciences',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Talgat Manglayev, Inc. Built with JavaScript React Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
