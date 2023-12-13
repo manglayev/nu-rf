@@ -236,9 +236,10 @@ function Team()
             <div className="column" style={{display: "block", marginLeft: "auto", marginRight: "auto",}}>
                 <div className="card">                
                 <div className="container">
-                    <h2>Zere Iman</h2>
+                    <h2>Research Assistant, UG students</h2>
+                    <h2>Zere Iman, </h2>
                     <h2>Abzal Aidakhmetov</h2>
-                    <h2>Duren Yedres</h2>
+                    <h2>Dauren Yedres</h2>
                 </div>
                 </div>                
             </div>
