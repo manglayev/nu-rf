@@ -68,20 +68,6 @@ function Team()
                     </div>
                     </div>
                 </div>
-                <div className="column">
-                    <div className="card">
-                    <img src={Bakytbekov_Azamat} alt="Azamat" className="photo" />
-                    <div className="container">
-                        <h2>Dr. AZAMAT BAKYTBEKOV</h2>
-                        <p>received his bachelor's degree from the Electrical Engineering
-                            and Electronics Department at Nazarbayev University in 2015, and his master's and Ph.D. degree
-                            from the Electrical Engineering Department at King Abdullah University of Science and
-                            Technology (KAUST) in 2017 and 2022 respectively. He is currently a postdoctoral scholar at
-                            Nazarbayev University under the supervision of Dr. Mohammad Hashmi. His research interests
-                            include RF and thermal energy harvesting for green IoT applications.</p>
-                    </div>
-                    </div>
-                </div>
             </div>
             <div className="topnav"><h1>Research Assistants – PhD Students</h1></div>
             <div className="row">
@@ -236,8 +222,9 @@ function Team()
             <div className="column" style={{display: "block", marginLeft: "auto", marginRight: "auto",}}>
                 <div className="card">                
                 <div className="container">
+                    <h2>Dr. Azamat Bakytbekov</h2>
                     <h2>Research Assistant, UG students</h2>
-                    <h2>Zere Iman, </h2>
+                    <h2>Zere Iman</h2>
                     <h2>Abzal Aidakhmetov</h2>
                     <h2>Dauren Yedres</h2>
                 </div>
